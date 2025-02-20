@@ -1,14 +1,15 @@
-@startuml
+startuml
 class Temperatura {
     - celsius : double
     
     + Temperatura()
     + Temperatura(celsius : double)
     
-    + getCelsius() : double
-    + setCelsius(celsius : double) : void
-    + getFahrenheit() : double
+    + getGradosC() : double
+    + setGradosC(celsius : double) : void
+    + getGradosF() : double
 }
 @enduml
+
 
 www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX9pIr8BKeiAIrALAZcKW02NONar9pYpD9Y1Ik5bFpIf9nKi32Oq4PMhw69HGnThoQovlJK4lUYn9JyOcSDJRWAg5mnN0xJ322hB3yp1TqKDsHJQhaSKlDIW1u30000
