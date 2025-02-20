@@ -1,0 +1,29 @@
+@startuml
+class Punto2D {
+    - m_coordX : double
+    - m_coordY : double
+    
+    + Punto2D()
+    + Punto2D(x : double, y : double)
+    
+    + getCoordX() : double
+    + setCoordX(coordX : double) : void
+    + getCoordY() : double
+    + setCoordY(coordY : double) : void
+}
+
+class Circunferencia {
+    - m_centro : Punto2D
+    - m_radio : double
+    
+    + Circunferencia()
+    + Circunferencia(radio : double, x : double, y : double)
+    + Circunferencia(radio : double, centro : Punto2D)
+    
+    + getCentro() : Punto2D
+    + setCentro(centro : Punto2D) : void
+    + getRadio() : double
+    + setRadio(radio : double) : void
+  }
+
+  www.plantuml.com/plantuml/png/ZP0zRiGW48Lxds9Aa9qcfIjBpW6YL74L4I0H4WQ9doXHj7TVsLfcpPXY6mJpPjuylYac4L9URIUjY15Uiql--GN-Em209rW_fFT1lSC8okTFg-lwKjVteoycZ9FtBtOFy8TtVXpzrcdU5p9UM_SGKIAHjiuVRnInM1eMA65wOd7fRY1c4sHsNpfe9uquyj0k1GzZ-HKAGIZZMpo85-FjSZq_G9lMWyCqvGdohZD-xq14HQCMPynlsz86vQ9WACfuqaxbrLu1
